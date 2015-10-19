@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/ks_name"
+        android:layout_width="95dip"
+        android:layout_height="30dip"
+        android:singleLine="true"
+        android:textSize="10pt" />
+
+    <TextView
+        android:id="@+id/ks_date"
+        android:layout_width="95dip"
+        android:layout_height="30dip"
+        android:singleLine="true"
+        android:textSize="10pt" />
+
+    <TextView
+        android:id="@+id/ks_address"
+        android:layout_width="95dip"
+        android:layout_height="30dip"
+        android:singleLine="true"
+        android:textSize="10pt" />
+
+    <TextView
+        android:id="@+id/ks_address2"
+        android:layout_width="70dip"
+        android:layout_height="30dip"
+        android:singleLine="true"
+        android:textSize="10pt" />
+
+</LinearLayout>
